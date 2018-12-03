@@ -5,9 +5,8 @@ using sf::CircleShape;
 using sf::Color;
 using sf::Event;
 
-
 int main(){
-  RenderWindow window(VideoMode(200, 200), "Hello World");  
+  RenderWindow window(VideoMode(200, 200), "Hello World"); //Set window dimensions and title
   CircleShape shape(100.f);
   shape.setFillColor(Color::Red);
 
